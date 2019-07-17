@@ -21,7 +21,7 @@ def printer(attendees)
   batch_badge_creator(attendees).each do |badge|
     puts "#{badge}"
   end
-  assign_rooms(attendees).each_with_index do |badge, index|
-    puts "#{badge} #{index}"
+  assign_rooms(attendees).each_with_index do |badge|
+    puts "#{badge}"
   end
 end
