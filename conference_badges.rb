@@ -12,6 +12,7 @@ def assign_rooms(attendees)
 attendees.collect.with_index do |name, index|
   "Hello, #{name}! You'll be assigned to room #{index}!"
 end
+end
 
 
 def printer(attendees)
